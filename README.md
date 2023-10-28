@@ -1,7 +1,59 @@
-# Vue 3 + Vite
+# Travel CRM
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Environments
 
-## Recommended IDE Setup
+```
+1. Production
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+==> Branch Name: main
+
+2. Development
+
+==> Branch Name: develop
+
+```
+
+## Install
+
+```sh
+
+git clone https://github.com/jawad2020-web/admine-v2.git
+cd admine-v2
+yarn install
+```
+
+## Start development
+
+```sh
+yarn dev
+```
+
+## Build for production
+
+```sh
+yarn build
+```
+
+## Resources
+
+### Languages & tools
+
+- [yarn](https://www.yarnpkg.com/)
+
+- [vue3](https://vuejs.org/)
+
+- [pinia](https://pinia.vuejs.org/)
+
+- [axios](https://axios-http.com/docs/intro)
+
+- [vue-router](https://router.vuejs.org/)
+
+- [TailwindCSS](https://tailwindcss.com/)
+
+- [Node](http://nodejs.org/)
+
+- [git](https://git-scm.com/)
+
+- [Vite](https://vitejs.dev/)
+
+- [ESLint](https://eslint.org/)

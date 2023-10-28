@@ -27,5 +27,6 @@ coverage
 *.sln
 *.sw?
 
+package-lock.json
 yarn.lock
 .env
