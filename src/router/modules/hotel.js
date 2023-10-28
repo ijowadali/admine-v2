@@ -20,7 +20,7 @@ const routes = {
         title: 'Hotel List',
         permissions: ['can view hotels list'],
       },
-      component: () => import('../../views/faq-layout-1/Main.vue'),
+      component: () => import('../../views/page-2/Main.vue'),
     },
     {
       path: 'add',
@@ -30,7 +30,7 @@ const routes = {
         permissions: ['can view hotel create'],
         hidden: true,
       },
-      component: () => import('../../views/faq-layout-1/Main.vue'),
+      component: () => import('../../views/page-2/Main.vue'),
     },
     {
       path: 'update/:id',
@@ -40,7 +40,7 @@ const routes = {
         permissions: ['can view hotel update'],
         hidden: true,
       },
-      component: () => import('../../views/faq-layout-1/Main.vue'),
+      component: () => import('../../views/page-2/Main.vue'),
     },
     {
       path: 'room',
@@ -49,7 +49,7 @@ const routes = {
         title: 'Rooms',
         permissions: ['can view rooms menu'],
       },
-      component: () => import('../../views/faq-layout-1/Main.vue'),
+      component: () => import('../../views/page-2/Main.vue'),
     },
   ],
 };

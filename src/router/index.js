@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import { RedirectRoute } from './base';
-// import { createRouterGuards } from '@src/router/guards';
+import { createRouterGuards } from './guards';
 
 const modules = import.meta.globEager('./modules/**/*.js');
 
@@ -80,5 +80,5 @@ export const router = createRouter({
 
 export async function setupRouter(app) {
   app.use(router);
-  // createRouterGuards(router);
+  createRouterGuards(router);
 }

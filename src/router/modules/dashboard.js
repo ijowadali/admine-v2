@@ -18,7 +18,7 @@ const routes = {
         title: 'Dashboard',
         permissions: ['can view dashboard menu'],
       },
-      component: () => import('../../views/dashboard/Main.vue'),
+      component: () => import('../../views/page-1/Main.vue'),
     },
   ],
 };

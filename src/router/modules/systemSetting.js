@@ -20,7 +20,7 @@ const routes = {
         title: 'Users',
         permissions: ['can view users menu'],
       },
-      component: () => import('../../views/users-layout-1/Main.vue'),
+      component: () => import('../../views/page-2/Main.vue'),
     },
     {
       path: 'profile',
@@ -30,7 +30,7 @@ const routes = {
         permissions: ['can view profile'],
         hidden: true,
       },
-      component: () => import('../../views/users-layout-1/Main.vue'),
+      component: () => import('../../views/page-2/Main.vue'),
     },
     {
       path: 'company',
@@ -40,7 +40,7 @@ const routes = {
         permissions: ['can view profile'],
         hidden: true,
       },
-      component: () => import('../../views/users-layout-1/Main.vue'),
+      component: () => import('../../views/page-2/Main.vue'),
     },
     {
       path: 'assing-permission',
@@ -49,7 +49,7 @@ const routes = {
         title: 'Assing Permission',
         hidden: true,
       },
-      component: () => import('../../views/users-layout-1/Main.vue'),
+      component: () => import('../../views/page-2/Main.vue'),
     },
     {
       path: 'role',
@@ -58,7 +58,7 @@ const routes = {
         title: 'Roles',
         permissions: ['can view roles menu'],
       },
-      component: () => import('../../views/users-layout-1/Main.vue'),
+      component: () => import('../../views/page-2/Main.vue'),
     },
     {
       path: 'permissions',
@@ -67,7 +67,7 @@ const routes = {
         title: 'Permissions',
         permissions: ['can view permissions menu'],
       },
-      component: () => import('../../views/users-layout-1/Main.vue'),
+      component: () => import('../../views/page-2/Main.vue'),
     },
     {
       path: 'menus',
@@ -76,7 +76,7 @@ const routes = {
         title: 'Menus',
         permissions: ['can view menus menu'],
       },
-      component: () => import('../../views/users-layout-1/Main.vue'),
+      component: () => import('../../views/page-2/Main.vue'),
     },
   ],
 };

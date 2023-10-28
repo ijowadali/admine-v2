@@ -20,7 +20,7 @@ const routes = {
         title: 'Booking List',
         permissions: ['can view bookings list'],
       },
-      component: () => import('../../views/faq-layout-1/Main.vue'),
+      component: () => import('../../views/page-1/Main.vue'),
     },
     {
       path: 'add',
@@ -29,7 +29,7 @@ const routes = {
         title: 'Add booking',
         permissions: ['can view booking create'],
       },
-      component: () => import('../../views/faq-layout-1/Main.vue'),
+      component: () => import('../../views/page-1/Main.vue'),
     },
     {
       path: 'update/:id',
@@ -39,7 +39,7 @@ const routes = {
         permissions: ['can view booking update'],
         hidden: true,
       },
-      component: () => import('../../views/faq-layout-1/Main.vue'),
+      component: () => import('../../views/page-1/Main.vue'),
     },
     {
       path: 'print/:id',
@@ -49,7 +49,7 @@ const routes = {
         permissions: ['can view booking print'],
         hidden: true,
       },
-      component: () => import('../../views/faq-layout-1/Main.vue'),
+      component: () => import('../../views/page-1/Main.vue'),
     },
   ],
 };

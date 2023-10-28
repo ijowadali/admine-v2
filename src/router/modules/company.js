@@ -20,7 +20,7 @@ const routes = {
         title: 'Companies',
         permissions: ['can view company'],
       },
-      component: () => import('../../views/faq-layout-1/Main.vue'),
+      component: () => import('../../views/page-1/Main.vue'),
     },
   ],
 };
